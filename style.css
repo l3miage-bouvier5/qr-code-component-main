@@ -17,8 +17,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
-  width: 99vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .card{
@@ -44,6 +44,13 @@ img{
 .description{
   color: var(--gravish-blue);
   font-size: 0.75rem;
+}
+
+@media (max-width:480px) {
+
+  .card{
+    zoom: 170%;
+  }
 }
 
 .attribution { font-size: 11px; text-align: center; }
