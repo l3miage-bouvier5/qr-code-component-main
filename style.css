@@ -1,4 +1,4 @@
-:root {
+ :root {
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(212, 45%, 89%);
   --gravish-blue: hsl(220, 15%, 55%);
@@ -17,19 +17,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 600px;
+  height: 80vh;
+  width: 99vw;
 }
 
 .card{
   border-radius: 10px;
-  height: 350px;
   width: 190px;
-  margin-top: 40px;
   padding: 10px;
   box-shadow: 0px 10px 30px var(--gravish-blue);
   display: flex;
   flex-direction: column;
-
 }
 
 
@@ -41,6 +39,11 @@ img{
 
 .texte{
   text-align: center;
+}
+
+.description{
+  color: var(--gravish-blue);
+  font-size: 0.75rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
